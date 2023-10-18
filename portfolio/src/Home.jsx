@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaGithubSquare,FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { Outlet } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import { links, social } from './Data';
 import About from './About';
@@ -56,7 +57,7 @@ const Home = () => {
         </ul>
       </div>
     </nav>
-    <div className='home' id='home'>
+    <section className='home' id='/'>
         <div className='content'>
             <div className='contaent-text'>
                 <h1> I'M Bikendra</h1>
@@ -68,11 +69,12 @@ const Home = () => {
                 <img src="hero-01dff752.svg" alt="" />
             </div>
         </div>
+    </section>
+    {/* <Outlet/> */}
     </div>
-    </div>
-    <Skills/>
-    <About/>
-    <Projects/>
+      <Skills/>
+      <About/>
+      <Projects/>
     </div>
     
     

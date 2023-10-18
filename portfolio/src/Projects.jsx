@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithubSquare, FaWordpressSimple } from 'react-icons/fa';
 export default function Projects() {
   return (
-    <div className='project' id='project'>
+    <section className='project' id='project'>
       <div className='project_1'>
         <div className='project_web'>
           <h2>Web Creations</h2>
@@ -34,7 +34,7 @@ export default function Projects() {
           </article>
         </div>
       </div>
-    </div>
+    </section>
 
   )
 }

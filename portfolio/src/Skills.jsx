@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div className='skill' id='skills'>
+    <section className='skill' id='skills'>
       <div className='skill_1'>
         <div className='skill_Tech'>
           <h1>Tech Stack</h1>
@@ -27,7 +27,7 @@ export default function Skills() {
           </article>
         </div>
       </div>
-    </div>
+    </section>
 
   )
 }
