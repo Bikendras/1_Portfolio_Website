@@ -29,7 +29,7 @@ const Navbar = () => {
         <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-            <span  className='Flipkart'>Web<span style={{color:"#059669"}}>Dev</span></span>
+            <span  className='Flipkart'>Port<span style={{color:"#059669"}}>folio</span></span>
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars/>
           </button>

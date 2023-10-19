@@ -15,7 +15,7 @@ const Home = () => {
           <div className='content'>
             <div className='contaent-text'>
               <h1> I'M Bikendra</h1>
-              <p className='developer'>Front-End Developer</p>
+              <p className='developer'>Mern Stack Developer.</p>
               <p className='Turning_ideas'>Turning Ideas Into Interactive Reality</p>
               <p className='Icons'> <FaGithubSquare /><FaLinkedin /><FaTwitter /></p>
             </div>

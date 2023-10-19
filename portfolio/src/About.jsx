@@ -12,7 +12,7 @@ export default function About() {
           <img src="bikendra.jpg" alt="" />
         </div>
         <div className='about_parag'>
-          <h1>I am friendly MERN stack Developer..</h1>
+          <h1>I am friendly Front-End Developer..</h1>
           <p>My name is Bikendra singh, it's a begning of my carrer in IT field .During my training session learn many languages to grow my self and also gain more Knowledge . With this i can create new more effective projects.</p>
           <Link to='/contact' className='btn'>CONTACT</Link>
         </div>
