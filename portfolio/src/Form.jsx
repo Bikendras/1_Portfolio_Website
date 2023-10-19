@@ -4,7 +4,10 @@ import React from 'react'
 
 export default function Form() {
   return (
-    <div className="form">
+    <div className="skill_1">
+      <div className='skill_Tech'>
+          <h1>Contact</h1>
+        </div>
         <form>
             <label>Your Name</label>
             <input type="text" placeholder="Enter your Name" ></input>
