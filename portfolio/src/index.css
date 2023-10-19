@@ -275,12 +275,13 @@ article p{
   margin-left: auto;
   margin-right: auto;
   max-width: 60rem;
-  /* padding-left: 0rem; */
   padding-right: 6rem;
 }
 .about_img img{
-  height: 13rem;
+  height: 19rem;
+  width: 70%;
   object-fit: fill;
+  border-radius: 10%;
 }
 .about_parag h1{
   padding-bottom: 1rem;
@@ -289,6 +290,21 @@ article p{
 }
 .about_parag p{
  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+.btn{
+  padding:12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #71c89b;
+  /* color:#222; */
+  border:1px solid #fff;
+  font-weight: 600;
+  cursor:pointer;
+}
+.btn:hover{
+  background:  #abcfbc;
+  color:#615050;
+  transition:0.3s;
 }
 
 /* about */

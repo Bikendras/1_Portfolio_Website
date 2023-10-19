@@ -1,15 +1,17 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 export default function About() {
   return (
     <section className='about' id='about'>
       <div className='about_container'>
         <div className='about_img'>
-          <img src="about-03f57d6e.svg" alt="" />
+          <img src="bikendra.jpg" alt="" />
         </div>
         <div className='about_parag'>
           <h1>Code And Coffee</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint maiores itaque doloribus asperiores dolorum quas voluptates distinctio, porro beatae quam provident libero animi totam, praesentium voluptatem corrupti dignissimos ipsum accusantium!</p>
+          <p>My name is Bikendra singh, it's a begning of my carrer in IT field .During my training session learn many languages to grow my self and also gain more Knowledge . With this i can create new more effective projects.</p>
+          <Link to='/contact' className='btn'>CONTACT</Link>
         </div>
       </div>
     </section>
