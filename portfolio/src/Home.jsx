@@ -1,11 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import { FaGithubSquare, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { FaBars } from 'react-icons/fa';
-import { links, social } from './Data';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
-import Footer from './Footer';
 
 const Home = () => {
   return (

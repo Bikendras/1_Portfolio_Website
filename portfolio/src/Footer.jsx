@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
             <div className="email">
                 <h4><FaMailBulk size={20} style={{marginRight:"2rem"}}/>
-            bikrndra7848@gmail.com</h4>
+            bikendra7848@gmail.com</h4>
             
             </div>
         </div>
